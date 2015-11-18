@@ -13,7 +13,7 @@ public class FairCoin
 		random = new Random();
 	}
 	
-	public FairCoin( int seed )
+	public FairCoin( final long seed )
 	{
 		random = new Random( seed );
 	}
